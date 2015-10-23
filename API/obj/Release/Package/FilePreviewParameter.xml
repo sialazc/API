@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Home/Index" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\SIALA\ MAJDI\\documents\\visual\ studio\ 2013\\Projects\\API\\API\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\SIALA\ MAJDI\\documents\\visual\ studio\ 2013\\Projects\\API\\API\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Add write permission to App_Data Folder" description="Add write permission to App_Data folder" value="Home/Index/App_Data" tags="Hidden">
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\SIALA\ MAJDI\\documents\\visual\ studio\ 2013\\Projects\\API\\API\\obj\\Release\\Package\\PackageTmp\\App_Data$" />
+  </parameter>
+  <parameter name="APIEntities-Web.config Connection String" description="" value="metadata=res://*/Models.Model1.csdl|res://*/Models.Model1.ssdl|res://*/Models.Model1.msl;provider=System.Data.SqlClient;provider connection string='Data Source=(LocalDB)\v11.0;AttachDbFilename=&quot;C:\Users\SIALA MAJDI\documents\visual studio 2013\Projects\API\API\App_Data\API.mdf&quot;;Integrated Security=True;MultipleActiveResultSets=True;Application Name=EntityFramework'" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\SIALA\ MAJDI\\documents\\visual\ studio\ 2013\\Projects\\API\\API\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='APIEntities']/@connectionString" />
+  </parameter>
+</parameters>
